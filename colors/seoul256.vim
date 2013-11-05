@@ -273,7 +273,7 @@ call s:hi('SpellLocal', [252, 252], [95, 95])
 call s:hi('SpellRare',  [252, 252], [95, 95])
 
 "
-call s:hi('StatusLine', [238, 238], [230, 230])
+call s:hi('StatusLine', [238, 238], [187, 187])
 call s:hi('StatusLineNC', [s:dark_bg + 2, s:light_bg - 2], [187, 238])
 call s:hi('TabLineFill', [s:dark_bg + 2, s:light_bg - 2], ['', ''])
 call s:hi('TabLineSel', [187, 187], [23, 66])
