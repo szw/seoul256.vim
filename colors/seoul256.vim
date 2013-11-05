@@ -273,7 +273,7 @@ call s:hi('SpellLocal', [252, 252], [95, 95])
 call s:hi('SpellRare',  [252, 252], [95, 95])
 
 "
-call s:hi('StatusLine', [95, 95], [187, 187])
+call s:hi('StatusLine', [59, 59], [187, 187])
 call s:hi('StatusLineNC', [s:dark_bg + 2, s:light_bg - 2], [187, 238])
 call s:hi('TabLineFill', [s:dark_bg + 2, s:light_bg - 2], ['', ''])
 call s:hi('TabLineSel', [187, 187], [23, 66])
@@ -324,7 +324,7 @@ call s:hi('GitGutterChange', [65, 65], ['', ''])
 call s:hi('GitGutterDelete', [161, 161], ['', ''])
 call s:hi('GitGutterChangeDelete', [168, 168], ['', ''])
 
-" http://vim.wikia.com/wiki/Highlight_unwanted_spaces     
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
 " ---------------------------------------------------^^^^^
 call s:hi('ExtraWhitespace', ['', ''], [s:dark_bg - 1, s:light_bg - 2])
 
